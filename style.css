@@ -1,0 +1,99 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+span,
+a,
+li,
+ul {
+    font-family: 'Prompt', sans-serif !important;
+    color: white;
+}
+
+.left-content {
+    /* ความสูงเต็มจอ */
+    height: 100vh;
+    /* ความกว้าง 30 % ของจอ */
+    width: 30vw;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('./assets/profileimage.jpg');
+}
+
+.right-content {
+    height: 100vh;
+    width: 70vw;
+    overflow-y: auto;
+    background-color: rgb(30, 30, 30);
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-item-center {
+    align-items: center;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.text-Prompt{
+    font-family: 'Prompt', sans-serif !important;
+}
+
+a {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.a-tilte-active {
+    color: orange !important;
+    text-decoration: none !important;
+    font-size: 20px;
+}
+
+.a-tilte {
+    color: white !important;
+    text-decoration: none !important;
+    font-size: 20px;
+}
+
+.hover {
+    cursor: pointer !important;
+}
+
+.hover:hover {
+    color: orange !important;
+}
+
+.px {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.orange {
+    color: orange;
+}
+
+.context {
+    padding-top: 20px;
+
+}
+
+.image-python {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.qr {
+    display: flex;
+    justify-content: end;
+    width: 250px;
+    margin-top: 20px;
+}
